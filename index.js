@@ -75,12 +75,16 @@ function totalPrice(){
   const eticketPrice = parseInt(econInput);
 
   const totalPrice = fticketPrice + eticketPrice ;
-  document.getElementById('total-Price').innerText = totalPrice ;
+  document.getElementById('total-Price').innerText = '$' +totalPrice ;
 
   const taxAmount = totalPrice * .10;
-  document.getElementById('tax-amount').innerText = taxAmount ;
+  document.getElementById('tax-amount').innerText = '$' +taxAmount ;
 
   const grandTotal = totalPrice + taxAmount ;
-  document.getElementById('grand-total').innerText = grandTotal ;
+  document.getElementById('grand-total').innerText = '$' +grandTotal ;
 
 }
+
+
+
+
