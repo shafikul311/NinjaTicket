@@ -120,3 +120,11 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#successAlert{
+    display: none;
+    padding-top: 20%;
+}
+
+.clo{
+    color: green;
+}
