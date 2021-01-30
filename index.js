@@ -89,7 +89,7 @@ function totalPrice(){
 
 const bookNow = document.getElementById("bookNow");
 bookNow.addEventListener("click", function(){
-    const loginArea = document.getElementById("mainArea")
+    const mainArea = document.getElementById("mainArea")
     mainArea.style.display = "none";
     const transactionArea = document.getElementById("success-alert")
     successAlert.style.display = "block";
